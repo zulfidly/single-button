@@ -1,15 +1,13 @@
 <template>
     <button 
-    @click="btnFunction"
-    :aria-label="btnAriaLabel"
-    :class="[btnClass]">
-        {{ btnName }}
+        @click="btnFunction"
+        :aria-label="btnAriaLabel"
+        :class="[btnClass]">
+            {{ btnName }}
     </button>
 </template>
 
-<script setup>
-    import { ref } from 'vue'
-    
+<script setup>   
     const props = defineProps({
         btnName: { 
             type: String,
@@ -27,7 +25,5 @@
             type: Function,
             required: true
         }
-
     })
-
 </script>
