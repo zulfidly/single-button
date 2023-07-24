@@ -30,6 +30,12 @@
       <li>to shape the button dynamically, depending on the whether the input is and Even or Odd number</li>
       <li>to disable the button if input is not a number</li>
       <li>to pass different function base on the input</li>
+      <li>
+        <a href="https://github.com/zulfidly/single-button" target="_blank" aria-label="visit Github repository">Github link</a>
+      </li>
+      <li>
+        <a href="https://verdant-figolla-f43a03.netlify.app/" target="_blank" aria-label="view app demo at Netlify">Demo at Netlify</a>
+      </li>
     </ul>
     
     <BtnTypeA
