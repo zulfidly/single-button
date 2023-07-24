@@ -26,7 +26,8 @@
 
 <template>
   <div class="flex flex-col justify-center items-center gap-12">
-    <ul class="list-disc list-inside"> <span class="font-semibold">Objective :</span>
+    <ul class="list-disc list-inside"> 
+      <li class="font-semibold list-none">Objective :</li>
       <li>to shape the button dynamically, depending on the whether the input is and Even or Odd number</li>
       <li>to disable the button if input is not a number</li>
       <li>to pass different function base on the input</li>
